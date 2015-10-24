@@ -1,0 +1,213 @@
+/*
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Gretchen
+Developer @GA in Melb
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Clearfix: contain floats */
+.group:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: black;
+    font-size: 26px;
+    line-height: 1.4;
+    background: #f0efef;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+h1{
+    color: #033048;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    color: #033048;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0px 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h3 {
+    color: #033048;
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+aside {
+    float: left;
+    width: 240px;
+    display: inline;
+}
+
+header {
+    overflow: hidden;
+    background-color: #033048;
+}
+
+
+
+blockquote{
+    float: left;
+    clear: both;
+    color: #121212;
+    font-size: 60px;
+    margin: 0px 20px 0px 0px;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Centered the container */
+.container {
+    margin: 40px auto;
+    max-width:960px;
+}
+
+.readmore { 
+    float: right;
+    font-weight: 600px;
+    margin: 20px 0px;
+    color: #033048;
+    text-decoration: none;
+}
+
+.learnmore {
+    float: left;
+}
+
+
+.main-nav{
+    float:right;
+}
+
+.main-nav li{
+    float:left;
+    padding: 0px 20px;
+}
+
+.main-nav a{
+    color: #f9e42e;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.blogcopy{
+    color: #121212;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.posts{
+    float:left;
+    width:73%;
+}
+
+.main-sidebar{
+    float:right;
+    width:25%;
+}
+
+.button {
+    width: 280px;
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 12px 0;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #033048;
+}
+
+.newsletter-signup {
+    padding: 30px;
+    text-align: center;
+    background: #f9e42e;        /* yellow */
+}
+
+article{
+    padding:0px 0px 80px 0px;   
+}
+
+aside ul{
+    font-size: 24px;
+    font-weight: 300;
+    color: #033048;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .logo { 
+display: block;
+}
+
+footer {
+    text-align: center;
+    background: #121212;        /* almost black */
+    padding: 40px 0 45px;
+}
+
+footer ul {
+    margin: 75px 0;
+}
+
+footer li {
+    margin: 0 16px;
+    display: inline;
+    list-style: none;
+}
+
+footer li a {
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}   
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
